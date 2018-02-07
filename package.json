@@ -1,0 +1,23 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "mssql": "^4.1.0",
+    "restify": "^6.3.4",
+    "restify-router": "^0.5.0",
+    "restify-validator": "^0.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
